@@ -4,10 +4,11 @@ from src.speech.transcriber import SpeechTranscriber
 def main():
     transcriber = SpeechTranscriber()
     input("Press Enter to start recording...")
-    audio_path = record_audio(
-        duration=5
-    )
+    audio_path = record_audio()
+    if audio_path is None:
+        return
 
+    print("\nTranscribing...")
     text = transcriber.transcribe(audio_path)
     print("\nTranscript:")
     print(text)
