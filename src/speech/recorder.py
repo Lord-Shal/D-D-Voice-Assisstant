@@ -1,17 +1,22 @@
 import queue
 import sounddevice as sd
 import numpy as np
+import torch
+
+from silero_vad import load_silero_vad, VADIterator
 
 class RecordingError(Exception):
     pass
 
-def audio_level(audio):
-    audio = audio.astype(np.float32)
-    return np.sqrt(np.mean(audio ** 2))
-
-def listen_continuously(stop_event, sample_rate=16000, block_duration=0.1, silence_duration=1.0, silence_threshold=300):
+def listen_continuously(stop_event, sample_rate=16000, silence_duration=1000, speech_threshold=0.5):
     audio_queue = queue.Queue()
-    block_size = int(sample_rate * block_duration)
+    block_size = 512
+
+    try:
+        vad_model = load_silero_vad()
+        vad_iterator = VADIterator(vad_model, threshold=speech_threshold, sampling_rate=sample_rate, min_silence_duration_ms=silence_duration)
+    except Exception as error:
+        raise RecordingError(f"Could not load VAD model: {error}") from error
 
     def callback(indata, frames, time, status):
         if status:
@@ -21,7 +26,6 @@ def listen_continuously(stop_event, sample_rate=16000, block_duration=0.1, silen
 
     speech_chunks = []
     is_speaking = False
-    silence_time = 0.0
 
     try:
         with sd.InputStream(samplerate=sample_rate, channels=1, dtype="int16", blocksize=block_size, callback=callback):
@@ -33,24 +37,28 @@ def listen_continuously(stop_event, sample_rate=16000, block_duration=0.1, silen
                 except queue.Empty:
                     continue
 
-                level = audio_level(chunk)
+                audio = chunk.flatten().astype(np.float32) / 32768.0
+                audio_tensor = torch.from_numpy(audio)
 
-                if level > silence_threshold:
+                speech_event = vad_iterator(audio_tensor)
+
+                if speech_event and "start" in speech_event:
                     is_speaking = True
-                    silence_time = 0.0
-                    speech_chunks.append(chunk)
+                    speech_chunks = [chunk]
 
                 elif is_speaking:
                     speech_chunks.append(chunk)
-                    silence_time += block_duration
 
-                    if silence_time >= silence_duration:
-                        audio = np.concatenate(speech_chunks, axis=0)
-                        yield audio
+                if speech_event and "end" in speech_event and is_speaking:
+                    audio = np.concatenate(speech_chunks, axis=0)
+                    yield audio
 
-                        speech_chunks = []
-                        is_speaking = False
-                        silence_time = 0.0
+                    speech_chunks = []
+                    is_speaking = False
+
+            if is_speaking and speech_chunks:
+                audio = np.concatenate(speech_chunks, axis=0)
+                yield audio
 
     except sd.PortAudioError as error:
         raise RecordingError(f"Could not access microphone: {error}") from error
@@ -59,4 +67,5 @@ def listen_continuously(stop_event, sample_rate=16000, block_duration=0.1, silen
         raise RecordingError(f"Unexpected recording error: {error}") from error
 
     finally:
+        vad_iterator.reset_states()
         print("Recorder stopped.")
