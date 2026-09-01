@@ -1,43 +1,55 @@
 import queue
 import sounddevice as sd
-from scipy.io.wavfile import write
 import numpy as np
 
-def record_audio(
-    output_path="recording.wav",
-    sample_rate=16000
-):
+def audio_level(audio):
+    audio = audio.astype(np.float32)
+    return np.sqrt(np.mean(audio ** 2))
+
+def listen_continuously(
+    stop_event,
+    sample_rate=16000,
+    block_duration=0.1,
+    silence_duration=1.0,
+    silence_threshold=300,):
     audio_queue = queue.Queue()
-    audio_chunks = []
+    block_size = int(sample_rate * block_duration)
     def callback(indata, frames, time, status):
         if status:
             print(status)
-
         audio_queue.put(indata.copy())
 
-    print("Recording...")
-    print("Press Enter to stop.")
+    print("Listening...")
+    speech_chunks = []
+    is_speaking = False
+    silence_time = 0.0
     with sd.InputStream(
         samplerate=sample_rate,
         channels=1,
         dtype="int16",
-        callback=callback
-    ):
-        input()
+        blocksize=block_size,
+        callback=callback,):
+        while not stop_event.is_set():
+            try:
+                chunk = audio_queue.get(timeout=0.1)
+            except queue.Empty:
+                continue
+            level = audio_level(chunk)
+            if level > silence_threshold:
+                is_speaking = True
+                silence_time = 0.0
+                speech_chunks.append(chunk)
 
-        while not audio_queue.empty():
-            audio_chunks.append(audio_queue.get())
-
-    if not audio_chunks:
-        print("No audio was recorded.")
-        return None
-
-    audio = np.concatenate(audio_chunks, axis=0)
-    write(
-        output_path,
-        sample_rate,
-        audio
-    )
-
-    print("Recording complete.")
-    return output_path
+            elif is_speaking:
+                speech_chunks.append(chunk)
+                silence_time += block_duration
+                if silence_time >= silence_duration:
+                    audio = np.concatenate(
+                        speech_chunks,
+                        axis=0)
+                    
+                    yield audio
+                    speech_chunks = []
+                    is_speaking = False
+                    silence_time = 0.0
+    print("Stopped listening.")
