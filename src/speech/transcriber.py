@@ -23,7 +23,11 @@ class SpeechTranscriber:
                 audio = audio.astype(np.float32) / 32768.0
                 audio = audio.flatten()
 
-            segments, info = self.model.transcribe(audio, language="en")
+            segments, info = self.model.transcribe(audio,
+                                                   language="en",
+                                                   beam_size=5,
+                                                   vad_filter=True,
+                                                   initial_prompt="Dungeons and Dragons campaign set in medieval period. People speaking will have british accent and speak in slang")
             text = " ".join(segment.text.strip() for segment in segments if segment.text.strip())
             return text
 
