@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Example Species",
+        "category": "species",
+        "description": "Species description.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5.5e",
+        "aliases": [],
+        "data": {
+            "size": "Medium",
+            "speed": "30 ft.",
+            "traits": []
+        }
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Example Rule",
+        "category": "rule",
+        "description": "Explanation of the rule.",
+        "source": "SRD 5.1",
+        "ruleset": "5e",
+        "aliases": [
+            "example alias"
+        ],
+        "data": {
+            "section": "Combat"
+        }
+    }
+]

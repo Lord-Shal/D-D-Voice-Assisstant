@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Example Monster",
+        "category": "monster",
+        "description": "Monster description.",
+        "source": "SRD 5.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "size": "Medium",
+            "creature_type": "humanoid",
+            "alignment": "neutral",
+            "armor_class": 15,
+            "hit_points": 30,
+            "hit_dice": "4d8",
+            "speed": {
+                "walk": "30 ft."
+            },
+            "abilities": {
+                "strength": 10,
+                "dexterity": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "wisdom": 10,
+                "charisma": 10
+            },
+            "challenge_rating": "1",
+            "senses": [],
+            "languages": [],
+            "traits": [],
+            "actions": []
+        }
+    }
+]

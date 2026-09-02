@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Example Feat",
+        "category": "feat",
+        "description": "Feat description.",
+        "source": "SRD 5.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "prerequisites": [],
+            "benefits": []
+        }
+    }
+]

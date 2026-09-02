@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Example Spell",
+        "category": "spell",
+        "description": "Spell description.",
+        "source": "SRD 5.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 3,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "150 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "Example material component",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Example Item",
+        "category": "item",
+        "description": "Item description.",
+        "source": "SRD 5.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "item_type": "weapon",
+            "rarity": null,
+            "requires_attunement": false,
+            "damage": "1d8",
+            "damage_type": "slashing",
+            "armor_class": null,
+            "properties": [
+                "versatile"
+            ],
+            "weight": 3
+        }
+    }
+]

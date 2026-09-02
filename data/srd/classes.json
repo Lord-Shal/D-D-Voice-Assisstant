@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Example Class",
+        "category": "class",
+        "description": "Class description.",
+        "source": "SRD 5.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "hit_die": 8,
+            "primary_abilities": [],
+            "saving_throws": [],
+            "armor_proficiencies": [],
+            "weapon_proficiencies": [],
+            "features": []
+        }
+    }
+]

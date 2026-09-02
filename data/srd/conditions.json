@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Example Condition",
+        "category": "condition",
+        "description": "Condition description and rules.",
+        "source": "SRD 5.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {}
+    }
+]

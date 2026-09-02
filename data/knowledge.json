@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Fireball",
+        "category": "spell",
+        "description": "Temporary test description.",
+        "source": "SRD",
+        "aliases": [
+            "fire ball"
+        ]
+    },
+    {
+        "name": "Critical Hit",
+        "category": "rule",
+        "description": "Temporary test description.",
+        "source": "SRD",
+        "aliases": [
+            "crit",
+            "critical"
+        ]
+    }
+]
