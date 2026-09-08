@@ -1,25 +1,1476 @@
 [
     {
-        "name": "Example Spell",
+        "name": "Acid Splash",
         "category": "spell",
-        "description": "Spell description.",
+        "description": "Hurl acid at one creature, or two creatures close together. Targets make Dexterity saves or take acid damage that scales with character level.",
         "source": "SRD 5.1",
-        "ruleset": "5e",
+        "ruleset": "5e-2014",
         "aliases": [],
         "data": {
-            "level": 3,
+            "level": 0,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Acid Splash",
+        "category": "spell",
+        "description": "Create an acidic burst at a point in range. Creatures in a 5-foot-radius sphere make Dexterity saves or take acid damage that scales with character level.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
             "school": "evocation",
             "casting_time": "1 action",
-            "range": "150 feet",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Blade Ward",
+        "category": "spell",
+        "description": "Until the end of your next turn, you gain resistance to bludgeoning, piercing, and slashing damage dealt by weapon attacks.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 round",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Blade Ward",
+        "category": "spell",
+        "description": "Protect yourself with magic. While concentrating, attack rolls made against you are reduced by 1d4.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Chill Touch",
+        "category": "spell",
+        "description": "Make a ranged spell attack with a spectral hand. On a hit, the target takes necrotic damage and cannot regain hit points until your next turn; undead also have difficulty attacking you.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 round",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Chill Touch",
+        "category": "spell",
+        "description": "Make a melee spell attack against a creature you touch. On a hit, it takes necrotic damage and cannot regain hit points until the end of your next turn.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Dancing Lights",
+        "category": "spell",
+        "description": "Create up to four small lights, or combine them into a vaguely humanoid glowing form. You can move the lights while concentrating.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
             "components": [
                 "V",
                 "S",
                 "M"
             ],
-            "material": "Example material component",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "material": "A bit of phosphorus, wychwood, or a glowworm",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Dancing Lights",
+        "category": "spell",
+        "description": "Create up to four hovering lights or combine them into one glowing humanoid-sized form. You can move them with a Bonus Action while concentrating.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "material": "A bit of phosphorus",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Druidcraft",
+        "category": "spell",
+        "description": "Create one small nature-themed magical effect, such as predicting nearby weather, making a flower bloom, producing a harmless sensory effect, or lighting or snuffing a small flame.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
             "duration": "Instantaneous",
             "concentration": false,
-            "ritual": false
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Druidcraft",
+        "category": "spell",
+        "description": "Create a minor nature effect, such as a harmless sensory sign, causing a plant to bloom, changing a small natural feature, or creating another simple druidic effect.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Eldritch Blast",
+        "category": "spell",
+        "description": "Fire one or more beams of crackling energy. Make a ranged spell attack for each beam; a hit deals force damage. Additional beams are gained at higher levels.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "warlock"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Elementalism",
+        "category": "spell",
+        "description": "Create one small elemental effect involving air, earth, fire, or water, such as a breeze, dust effect, harmless flame or smoke, or a small amount of water.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Fire Bolt",
+        "category": "spell",
+        "description": "Hurl a mote of fire at a creature or object. Make a ranged spell attack; on a hit it deals fire damage that scales with character level.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Friends",
+        "category": "spell",
+        "description": "For up to 1 minute, gain advantage on Charisma checks directed at one creature that is not hostile to you. When the spell ends, the creature realizes magic influenced it.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "S",
+                "M"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "material": "A small amount of makeup applied to the face",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Friends",
+        "category": "spell",
+        "description": "Target a humanoid you can see. It makes a Wisdom save; on a failure it is Charmed by you for the duration, with limits on repeated use.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "10 feet",
+            "components": [
+                "S",
+                "M"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "material": "Some makeup",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Guidance",
+        "category": "spell",
+        "description": "Touch a willing creature. Once before the spell ends, it can add 1d4 to one ability check.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "divination",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Guidance",
+        "category": "spell",
+        "description": "Touch a willing creature. While you concentrate, it can add 1d4 to an ability check as allowed by the spell.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "divination",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Light",
+        "category": "spell",
+        "description": "Touch one object no larger than 10 feet in any dimension. It sheds bright and dim light for 1 hour and can be covered to block the light.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "M"
+            ],
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "material": "A firefly or phosphorescent moss",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Light",
+        "category": "spell",
+        "description": "Touch one Large or smaller object. It emits bright and dim light for 1 hour; casting the spell again ends the previous instance.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "M"
+            ],
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "material": "A firefly or phosphorescent moss",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Mage Hand",
+        "category": "spell",
+        "description": "Create a spectral floating hand that can manipulate objects, open unlocked containers, stow or retrieve items, and carry up to 10 pounds.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Mage Hand",
+        "category": "spell",
+        "description": "Create a spectral hand that can manipulate nearby objects and carry a small amount of weight. You can control it with subsequent actions.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Mending",
+        "category": "spell",
+        "description": "Repair a single break or tear in an object you touch, provided the damage is small enough for the spell to mend.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 minute",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "material": "Two lodestones",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Message",
+        "category": "spell",
+        "description": "Point toward a creature in range and whisper a short message only it can hear; it can whisper a reply that only you hear.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "duration": "1 round",
+            "concentration": false,
+            "ritual": false,
+            "material": "A short piece of copper wire",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Message",
+        "category": "spell",
+        "description": "Send a whispered message to a creature in range; the target can reply privately. The magic can pass around some obstacles but is blocked by sufficient material.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "S",
+                "M"
+            ],
+            "duration": "1 round",
+            "concentration": false,
+            "ritual": false,
+            "material": "A copper wire",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Minor Illusion",
+        "category": "spell",
+        "description": "Create either a sound or an image of an object within range. The illusion lasts up to 1 minute and can be discovered by physical interaction or investigation.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "S",
+                "M"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "material": "A bit of fleece",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Minor Illusion",
+        "category": "spell",
+        "description": "Create a sound or a simple visual illusion within range. Creatures can determine it is illusory through interaction or successful examination.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "S",
+                "M"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "material": "A bit of fleece",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Poison Spray",
+        "category": "spell",
+        "description": "Project poisonous gas at a nearby creature. It makes a Constitution save or takes poison damage that scales with character level.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Poison Spray",
+        "category": "spell",
+        "description": "Launch toxic magic at a creature in range. Make a ranged spell attack; on a hit, the target takes poison damage that scales with character level.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Prestidigitation",
+        "category": "spell",
+        "description": "Produce one of several minor magical tricks, such as a harmless sensory effect, lighting or snuffing a small flame, cleaning or soiling an object, warming or flavoring material, marking a surface, or creating a tiny trinket.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Up to 1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Prestidigitation",
+        "category": "spell",
+        "description": "Perform a minor magical trick, including simple sensory effects, cleaning or soiling, lighting or extinguishing a small flame, changing flavor or temperature, making a mark, or creating a tiny temporary object.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Up to 1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Produce Flame",
+        "category": "spell",
+        "description": "A flame appears in your hand, giving light. You can also throw it at a creature with a ranged spell attack to deal fire damage.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 minutes",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Produce Flame",
+        "category": "spell",
+        "description": "Create a harmless flame in your hand that sheds light. You can make a ranged spell attack with it to deal fire damage that scales with character level.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 minutes",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Ray of Frost",
+        "category": "spell",
+        "description": "Fire a freezing beam at a creature. On a hit it takes cold damage and its speed is reduced until the start of your next turn.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Resistance",
+        "category": "spell",
+        "description": "Touch a willing creature. Once before the spell ends, it can add 1d4 to one saving throw.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "material": "A miniature cloak",
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Resistance",
+        "category": "spell",
+        "description": "Touch a willing creature and protect it with magic. While you concentrate, it can add 1d4 to a saving throw as allowed by the spell.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Sacred Flame",
+        "category": "spell",
+        "description": "Radiance descends on a creature you can see. It makes a Dexterity save or takes radiant damage that scales with character level.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Shillelagh",
+        "category": "spell",
+        "description": "Empower a club or quarterstaff. For the duration, you can use your spellcasting ability for its attack and damage rolls and its damage die becomes d8.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "material": "Mistletoe, a shamrock leaf, and a club or quarterstaff",
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Shillelagh",
+        "category": "spell",
+        "description": "Empower a club or quarterstaff, using your spellcasting ability for attacks and damage. Its damage die improves as you gain levels.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "material": "Mistletoe",
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Shocking Grasp",
+        "category": "spell",
+        "description": "Make a melee spell attack that deals lightning damage. A target wearing metal armor gives you advantage, and a hit prevents the target from taking reactions until its next turn.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Shocking Grasp",
+        "category": "spell",
+        "description": "Make a melee spell attack that deals lightning damage. On a hit, the target cannot make opportunity attacks until the start of its next turn.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Sorcerous Burst",
+        "category": "spell",
+        "description": "Launch sorcerous energy at a creature or object. Make a ranged spell attack; on a hit it deals damage of a chosen type, with a chance for additional damage dice.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Spare the Dying",
+        "category": "spell",
+        "description": "Touch a living creature at 0 hit points to stabilize it.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Spare the Dying",
+        "category": "spell",
+        "description": "Stabilize a creature in range that has 0 hit points. The spell's range increases as you gain levels.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "15 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Starry Wisp",
+        "category": "spell",
+        "description": "Launch a mote of light at a creature or object. Make a ranged spell attack; on a hit it deals radiant damage and makes the target emit dim light until your next turn.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Thaumaturgy",
+        "category": "spell",
+        "description": "Create one of several minor divine manifestations, such as amplifying your voice, altering flames, causing harmless tremors or sounds, or opening an unlocked door or window.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Up to 1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Thaumaturgy",
+        "category": "spell",
+        "description": "Create a minor supernatural sign such as an altered voice, an unusual sensory effect, a harmless environmental disturbance, or another simple divine manifestation.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Up to 1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Thorn Whip",
+        "category": "spell",
+        "description": "Create a vine-like whip and make a melee spell attack against a creature in range. A hit deals piercing damage and can pull a Large or smaller target closer.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "material": "The stem of a plant with thorns",
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "True Strike",
+        "category": "spell",
+        "description": "On your next turn, you gain advantage on your first attack roll against a chosen target, provided the spell has not ended.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "divination",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "S"
+            ],
+            "duration": "Concentration, up to 1 round",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "True Strike",
+        "category": "spell",
+        "description": "Make one attack with a weapon used in the spell's casting, using your spellcasting ability for the attack and damage. The attack can deal radiant damage and gains extra damage at higher levels.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "divination",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "S",
+                "M"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "material": "A weapon with which you have proficiency and that is worth 1+ CP",
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Vicious Mockery",
+        "category": "spell",
+        "description": "Insult a creature you can see. It makes a Wisdom save or takes psychic damage and has disadvantage on its next attack roll before the end of its next turn.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Vicious Mockery",
+        "category": "spell",
+        "description": "Unleash a magically laced insult. The target makes a Wisdom save or takes psychic damage and has disadvantage on its next attack roll before the end of its next turn.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 0,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard"
+                ],
+                "subclasses": []
+            }
         }
     }
 ]
