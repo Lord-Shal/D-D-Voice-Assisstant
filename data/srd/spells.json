@@ -1472,5 +1472,2361 @@
                 "subclasses": []
             }
         }
+    },
+    {
+        "name": "Alarm",
+        "category": "spell",
+        "description": "Ward a door, window, or small area. You choose creatures that do not trigger it and whether the alarm is mental or audible.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 minute",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A bell and silver wire",
+            "duration": "8 hours",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "ranger",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Animal Friendship",
+        "category": "spell",
+        "description": "Attempt to charm a Beast that can see and hear you. The spell can affect additional beasts when cast with higher-level slots.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A morsel of food",
+            "duration": "24 hours",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "ranger"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Bane",
+        "category": "spell",
+        "description": "Up to three creatures make Charisma saves. Affected targets subtract 1d4 from attack rolls and saving throws.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A drop of blood",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Bane",
+        "category": "spell",
+        "description": "Up to three creatures make Charisma saves. Affected targets subtract 1d4 from attack rolls and saving throws.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A drop of blood",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "warlock"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Bless",
+        "category": "spell",
+        "description": "Up to three creatures add 1d4 to attack rolls and saving throws while you concentrate.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A Holy Symbol worth 5+ GP",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "paladin"
+                ],
+                "subclasses": [
+                    {
+                        "class": "cleric",
+                        "subclass": "life domain",
+                        "access_type": "always prepared",
+                        "level_granted": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Bless",
+        "category": "spell",
+        "description": "Up to three creatures add 1d4 to attack rolls and saving throws while you concentrate.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A Holy Symbol worth 5+ GP",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "paladin"
+                ],
+                "subclasses": [
+                    {
+                        "class": "cleric",
+                        "subclass": "life domain",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Burning Hands",
+        "category": "spell",
+        "description": "Flames erupt in a 15-foot cone. Creatures make Dexterity saves and take fire damage, with half damage on a success.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Self (15-foot cone)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": [
+                    {
+                        "class": "warlock",
+                        "subclass": "the fiend",
+                        "access_type": "expanded spell list",
+                        "level_granted": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Burning Hands",
+        "category": "spell",
+        "description": "Flames erupt in a 15-foot cone. Creatures make Dexterity saves and take fire damage, with half damage on a success.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Self (15-foot cone)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": [
+                    {
+                        "class": "warlock",
+                        "subclass": "fiend patron",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    },
+                    {
+                        "class": "druid",
+                        "subclass": "circle of the land",
+                        "access_type": "always prepared",
+                        "level_granted": 3,
+                        "option": "arid"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Charm Person",
+        "category": "spell",
+        "description": "A Humanoid makes a Wisdom save or is charmed by you for the duration. Hostile circumstances can make the save easier.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Chromatic Orb",
+        "category": "spell",
+        "description": "Hurl an orb of chosen elemental energy with a ranged spell attack. A hit deals damage and can jump to another target when cast with higher slots.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "90 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A diamond worth 50+ GP",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Color Spray",
+        "category": "spell",
+        "description": "Roll 6d10 to determine how many Hit Points of creatures in a 15-foot cone can be blinded until the end of your next turn, starting with the lowest-HP creatures.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "Self (15-foot cone)",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A pinch of colorful sand",
+            "duration": "1 round",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Color Spray",
+        "category": "spell",
+        "description": "Each creature in a 15-foot cone makes a Constitution save. On a failure, it is Blinded until the end of your next turn.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "Self (15-foot cone)",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A pinch of colorful sand",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Command",
+        "category": "spell",
+        "description": "Speak a short magical command to a creature. On a failed Wisdom save, it follows the command on its next turn.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "paladin"
+                ],
+                "subclasses": [
+                    {
+                        "class": "warlock",
+                        "subclass": "the fiend",
+                        "access_type": "expanded spell list",
+                        "level_granted": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Command",
+        "category": "spell",
+        "description": "Speak a short magical command to a creature. On a failed Wisdom save, it follows the command on its next turn.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "paladin"
+                ],
+                "subclasses": [
+                    {
+                        "class": "warlock",
+                        "subclass": "fiend patron",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Comprehend Languages",
+        "category": "spell",
+        "description": "Understand the literal meaning of spoken languages you hear and written languages you touch.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 action or ritual",
+            "range": "Self",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A pinch of soot and salt",
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Create or Destroy Water",
+        "category": "spell",
+        "description": "Create clean water in an open container or as rain, or destroy water in a container or fog in a small area.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A mix of water and sand",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Cure Wounds",
+        "category": "spell",
+        "description": "Touch a creature to restore 1d8 plus your spellcasting ability modifier Hit Points. Healing increases by 1d8 per slot level above 1.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid",
+                    "paladin",
+                    "ranger"
+                ],
+                "subclasses": [
+                    {
+                        "class": "cleric",
+                        "subclass": "life domain",
+                        "access_type": "always prepared",
+                        "level_granted": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Cure Wounds",
+        "category": "spell",
+        "description": "Touch a creature to restore 2d8 plus your spellcasting ability modifier Hit Points. Healing increases by 2d8 per slot level above 1.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid",
+                    "paladin",
+                    "ranger"
+                ],
+                "subclasses": [
+                    {
+                        "class": "cleric",
+                        "subclass": "life domain",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Detect Evil and Good",
+        "category": "spell",
+        "description": "Sense certain supernatural creature types and nearby consecrated or desecrated places or objects.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "paladin"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Detect Magic",
+        "category": "spell",
+        "description": "Sense nearby magic and, when visible, learn the school of magic associated with magical effects.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 action or ritual",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid",
+                    "paladin",
+                    "ranger",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Detect Magic",
+        "category": "spell",
+        "description": "Sense nearby magic and, when visible, learn the school of magic associated with magical effects.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 action or ritual",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid",
+                    "paladin",
+                    "ranger",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Detect Poison and Disease",
+        "category": "spell",
+        "description": "Sense poisons, poisonous creatures, and diseases nearby and identify the kind detected.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 action or ritual",
+            "range": "Self",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A yew leaf",
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid",
+                    "paladin",
+                    "ranger"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Disguise Self",
+        "category": "spell",
+        "description": "Alter your appearance, clothing, armor, weapons, and belongings with an illusion that can be discovered by physical interaction or examination.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Dissonant Whispers",
+        "category": "spell",
+        "description": "Whisper a discordant phrase at one creature. A failed Wisdom save deals psychic damage and forces it to move away using its reaction.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Divine Favor",
+        "category": "spell",
+        "description": "For 1 minute, your weapon attacks deal an extra 1d4 radiant damage on a hit; the spell doesn't require Concentration.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "paladin"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Divine Smite",
+        "category": "spell",
+        "description": "Empower a weapon strike with radiant energy, dealing extra radiant damage when the spell's attack condition is met.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": [
+                "V"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "paladin"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Ensnaring Strike",
+        "category": "spell",
+        "description": "Your next qualifying weapon hit can conjure grasping vines that restrain the target on a failed Strength save.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": [
+                "V"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "ranger"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Entangle",
+        "category": "spell",
+        "description": "Grasping plants fill a square area, creating difficult terrain and restraining creatures that fail Strength saves.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "90 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "ranger"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Expeditious Retreat",
+        "category": "spell",
+        "description": "Magically quicken yourself, allowing you to Dash using a Bonus Action while you concentrate.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Faerie Fire",
+        "category": "spell",
+        "description": "Outline creatures and objects in colored light. Failed Dexterity saves cause targets to glow and make attacks against them easier.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "False Life",
+        "category": "spell",
+        "description": "Gain 1d4 + 4 Temporary Hit Points for 1 hour, with additional Temporary Hit Points when cast using higher-level slots.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A small amount of alcohol",
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "False Life",
+        "category": "spell",
+        "description": "Bolster yourself with necromantic vitality, gaining a larger pool of Temporary Hit Points that increases with higher-level slots.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A small amount of alcohol",
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Feather Fall",
+        "category": "spell",
+        "description": "Slow the descent of up to five falling creatures so they can land without taking falling damage.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 reaction",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "M"
+            ],
+            "material": "A small feather or piece of down",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Find Familiar",
+        "category": "spell",
+        "description": "Summon a familiar spirit in an animal form. It acts independently but obeys you and can deliver touch spells.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 hour or ritual",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "Burning incense worth 10+ GP",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Floating Disk",
+        "category": "spell",
+        "description": "Create a floating disk that follows you and can carry a substantial load.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action or ritual",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A drop of mercury",
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Fog Cloud",
+        "category": "spell",
+        "description": "Create a heavily obscuring sphere of fog that spreads around corners and can be dispersed by strong wind.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "ranger",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Fog Cloud",
+        "category": "spell",
+        "description": "Create a heavily obscuring sphere of fog that spreads around corners and can be dispersed by strong wind.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "ranger",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": [
+                    {
+                        "class": "druid",
+                        "subclass": "circle of the land",
+                        "access_type": "always prepared",
+                        "level_granted": 3,
+                        "option": "polar"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Goodberry",
+        "category": "spell",
+        "description": "Create magical berries that nourish a creature and restore a small amount of health when eaten.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A sprig of mistletoe",
+            "duration": "24 hours",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "ranger"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Grease",
+        "category": "spell",
+        "description": "Cover a small area in slippery grease. Creatures may fall prone when the grease appears or when they enter or end their turn there.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A bit of pork rind or butter",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Grease",
+        "category": "spell",
+        "description": "Cover a small area in slippery grease. Creatures may fall prone when the grease appears or when they enter or end their turn there.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A bit of pork rind or butter",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Guiding Bolt",
+        "category": "spell",
+        "description": "Make a ranged spell attack that deals radiant damage and causes the next attack against the target to have advantage.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 round",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Healing Word",
+        "category": "spell",
+        "description": "A creature you can see within 60 feet regains 1d4 plus your spellcasting ability modifier Hit Points. Healing increases with higher slots.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 bonus action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Healing Word",
+        "category": "spell",
+        "description": "A creature you can see within 60 feet regains 2d4 plus your spellcasting ability modifier Hit Points. Healing increases with higher slots.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 bonus action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Hellish Rebuke",
+        "category": "spell",
+        "description": "When a creature damages you, engulf it in infernal flame. It makes a Dexterity save against fire damage.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 reaction",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "warlock"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Heroism",
+        "category": "spell",
+        "description": "A willing creature becomes immune to being frightened and repeatedly gains Temporary Hit Points while you concentrate.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "paladin"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Hex",
+        "category": "spell",
+        "description": "Curse a creature to take extra necrotic damage from your attacks and suffer disadvantage on checks using one chosen ability.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 bonus action",
+            "range": "90 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "The petrified eye of a newt",
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "warlock"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Hideous Laughter",
+        "category": "spell",
+        "description": "Overwhelm a creature with magical laughter. On a failed Wisdom save it falls prone and becomes incapacitated while the effect lasts.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A tart and a feather",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Hideous Laughter",
+        "category": "spell",
+        "description": "Overwhelm a creature with magical laughter. On a failed Wisdom save it falls prone and becomes incapacitated while the effect lasts.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A tart and a feather",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Hunter's Mark",
+        "category": "spell",
+        "description": "Mark a creature as your quarry. Your weapon attacks deal extra damage to it, and you gain an advantage when tracking it.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 bonus action",
+            "range": "90 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "ranger"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Ice Knife",
+        "category": "spell",
+        "description": "Throw a shard of ice that strikes one target and then explodes, potentially damaging nearby creatures with cold.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "S",
+                "M"
+            ],
+            "material": "A drop of water or piece of ice",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Identify",
+        "category": "spell",
+        "description": "Learn a magic item's properties and use, or learn what spells are affecting an object or creature you touch.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 minute or ritual",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A pearl worth 100+ GP and an owl feather",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Illusory Script",
+        "category": "spell",
+        "description": "Write a secret message that appears normal or unintelligible to creatures you have not designated to read it.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "illusion",
+            "casting_time": "1 minute or ritual",
+            "range": "Touch",
+            "components": [
+                "S",
+                "M"
+            ],
+            "material": "Ink worth 10+ GP, consumed",
+            "duration": "10 days",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Inflict Wounds",
+        "category": "spell",
+        "description": "Make a melee spell attack against a creature you can reach. On a hit, it takes 3d10 necrotic damage.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Inflict Wounds",
+        "category": "spell",
+        "description": "A creature you touch makes a Constitution save against a burst of necrotic energy, taking necrotic damage on a failure.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Jump",
+        "category": "spell",
+        "description": "Touch a creature and triple its jump distance for 1 minute.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A grasshopper's hind leg",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "ranger",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Jump",
+        "category": "spell",
+        "description": "Touch a willing creature. Once on each of its turns for 1 minute, it can expend 10 feet of movement to jump up to 30 feet.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A grasshopper's hind leg",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "ranger",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Longstrider",
+        "category": "spell",
+        "description": "Increase a creature's Speed by 10 feet for the duration.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A pinch of dirt",
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "ranger",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Mage Armor",
+        "category": "spell",
+        "description": "Protect an unarmored creature with magical force, setting its base Armor Class to 13 plus Dexterity.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A piece of cured leather",
+            "duration": "8 hours",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Magic Missile",
+        "category": "spell",
+        "description": "Create three magical darts that automatically hit chosen targets and deal force damage.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Protection from Evil and Good",
+        "category": "spell",
+        "description": "Protect a willing creature from certain supernatural creature types, hindering their attacks and control effects.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "Holy water or powdered silver and iron",
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "paladin",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": [
+                    {
+                        "class": "paladin",
+                        "subclass": "oath of devotion",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Protection from Evil and Good",
+        "category": "spell",
+        "description": "Protect a willing creature from certain supernatural creature types, hindering their attacks and control effects.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "Holy water or powdered silver and iron",
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid",
+                    "paladin",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": [
+                    {
+                        "class": "paladin",
+                        "subclass": "oath of devotion",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Purify Food and Drink",
+        "category": "spell",
+        "description": "Remove poison and disease from nonmagical food and drink in a small area.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "transmutation",
+            "casting_time": "1 action or ritual",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid",
+                    "paladin"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Ray of Sickness",
+        "category": "spell",
+        "description": "Make a ranged spell attack with sickening energy that deals poison damage and can inflict the Poisoned condition.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": [
+                    {
+                        "class": "druid",
+                        "subclass": "circle of the land",
+                        "access_type": "always prepared",
+                        "level_granted": 3,
+                        "option": "tropical"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Sanctuary",
+        "category": "spell",
+        "description": "Ward a creature so enemies must overcome a Wisdom save to directly attack it; hostile actions by the warded creature can end the spell.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 bonus action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A small silver mirror",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": [
+                    {
+                        "class": "paladin",
+                        "subclass": "oath of devotion",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Sanctuary",
+        "category": "spell",
+        "description": "Ward a creature so enemies must overcome a Wisdom save to directly attack it; hostile actions by the warded creature can end the spell.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 bonus action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A small silver mirror",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Searing Smite",
+        "category": "spell",
+        "description": "Empower a weapon strike with fire, dealing extra fire damage and potentially igniting the target.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": [
+                "V"
+            ],
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "paladin"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Shield",
+        "category": "spell",
+        "description": "Raise a magical barrier in response to an attack or Magic Missile, gaining +5 AC and blocking Magic Missile until your next turn.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 reaction",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 round",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Shield of Faith",
+        "category": "spell",
+        "description": "Surround a creature with shimmering protection that grants +2 AC while you concentrate.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 bonus action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A prayer scroll",
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "paladin"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Shield of Faith",
+        "category": "spell",
+        "description": "Surround a creature with shimmering protection that grants +2 AC while you concentrate.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "abjuration",
+            "casting_time": "1 bonus action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A prayer scroll",
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "paladin"
+                ],
+                "subclasses": [
+                    {
+                        "class": "paladin",
+                        "subclass": "oath of devotion",
+                        "access_type": "always prepared",
+                        "level_granted": 3
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Silent Image",
+        "category": "spell",
+        "description": "Create and move a visual illusion that can be revealed through physical interaction or careful examination.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A bit of fleece",
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Sleep",
+        "category": "spell",
+        "description": "Roll 5d8 for a pool of Hit Points. Creatures in a 20-foot-radius area fall unconscious in ascending order of current Hit Points until the pool is exhausted.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "90 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A pinch of sand or rose petals",
+            "duration": "1 minute",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Sleep",
+        "category": "spell",
+        "description": "Creatures in a small area make Wisdom saves. Failed saves first incapacitate targets and can cause them to fall unconscious while you concentrate.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A pinch of sand or rose petals",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": [
+                    {
+                        "class": "druid",
+                        "subclass": "circle of the land",
+                        "access_type": "always prepared",
+                        "level_granted": 3,
+                        "option": "temperate"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Speak with Animals",
+        "category": "spell",
+        "description": "Understand and verbally communicate with Beasts for the duration.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 action or ritual",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 minutes",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "ranger"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Speak with Animals",
+        "category": "spell",
+        "description": "Understand and verbally communicate with Beasts for the duration.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "divination",
+            "casting_time": "1 action or ritual",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 minutes",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "ranger",
+                    "warlock"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Thunderwave",
+        "category": "spell",
+        "description": "Release a wave of thunderous force. Creatures make Constitution saves against thunder damage and being pushed away.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Self (15-foot cube)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
+    },
+    {
+        "name": "Unseen Servant",
+        "category": "spell",
+        "description": "Create an invisible, mindless servant that performs simple tasks at your command.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 1,
+            "school": "conjuration",
+            "casting_time": "1 action or ritual",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "String and a bit of wood",
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            }
+        }
     }
 ]

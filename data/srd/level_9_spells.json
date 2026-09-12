@@ -1,0 +1,1219 @@
+[
+    {
+        "name": "Astral Projection",
+        "category": "spell",
+        "description": "Project yourself and companions into the Astral Plane while leaving your physical bodies behind.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "necromancy",
+            "casting_time": "1 hour",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "Jacinth worth at least 1,000 GP and a silver bar worth at least 100 GP for each target",
+            "duration": "Special",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "astral forms travel the Astral Plane while physical bodies remain behind"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "self and willing creatures",
+                    "count": 9
+                }
+            }
+        }
+    },
+    {
+        "name": "Foresight",
+        "category": "spell",
+        "description": "Grant a creature supernatural awareness that greatly improves its defenses and ability to act before danger.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "divination",
+            "casting_time": "1 minute",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A hummingbird feather",
+            "duration": "8 hours",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "target cannot be surprised"
+                    },
+                    {
+                        "effect": "advantage on attack rolls, ability checks, and saving throws"
+                    },
+                    {
+                        "effect": "attacks against target have disadvantage"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Foresight",
+        "category": "spell",
+        "description": "Grant a creature supernatural awareness that greatly improves its defenses and ability to act before danger.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "divination",
+            "casting_time": "1 minute",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A hummingbird feather",
+            "duration": "8 hours",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "target cannot be surprised"
+                    },
+                    {
+                        "effect": "advantage on attack rolls, ability checks, and saving throws"
+                    },
+                    {
+                        "effect": "attacks against target have disadvantage"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Gate",
+        "category": "spell",
+        "description": "Open a portal between planes or call a specific creature through a planar gateway.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A diamond worth at least 5,000 GP",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "portal",
+                    "size": "up to 20 feet diameter"
+                },
+                "conditions": [
+                    {
+                        "effect": "links your location to a precise location on another plane"
+                    },
+                    {
+                        "effect": "can call a named creature through the gate"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Gate",
+        "category": "spell",
+        "description": "Open a portal between planes or call a specific creature through a planar gateway.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A diamond worth at least 5,000 GP",
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "portal",
+                    "size": "up to 20 feet diameter"
+                },
+                "conditions": [
+                    {
+                        "effect": "links your location to a precise location on another plane"
+                    },
+                    {
+                        "effect": "can call a named creature through the gate"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Imprisonment",
+        "category": "spell",
+        "description": "Trap a creature indefinitely using one of several powerful magical forms of imprisonment.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "abjuration",
+            "casting_time": "1 minute",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A special component worth at least 500 GP per Hit Die of the target",
+            "duration": "Until dispelled",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "not imprisoned"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "choose a magical prison such as burial, chaining, hedged prison, minimus containment, or slumber"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Mass Heal",
+        "category": "spell",
+        "description": "Distribute an enormous pool of healing among creatures you can see and remove certain debilitating conditions.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": {
+                    "amount": "700 hit points divided among chosen creatures"
+                },
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "also ends blindness, deafness, and diseases as specified"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "creatures you can see",
+                    "count": "any number within range"
+                }
+            }
+        }
+    },
+    {
+        "name": "Meteor Swarm",
+        "category": "spell",
+        "description": "Call down blazing meteors that explode at several points, causing devastating fire and bludgeoning damage.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "1 mile",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "20d6",
+                        "type": "fire"
+                    },
+                    {
+                        "dice": "20d6",
+                        "type": "bludgeoning"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "four spheres",
+                    "size": "40-foot radius each"
+                },
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Power Word Heal",
+        "category": "spell",
+        "description": "Speak a word of restoration that fully heals a creature and removes several serious conditions.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": {
+                    "amount": "restores target to maximum Hit Points"
+                },
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "ends several conditions including charmed, frightened, paralyzed, poisoned, and stunned as applicable"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "one creature",
+                    "count": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Power Word Heal",
+        "category": "spell",
+        "description": "Speak a word of restoration that fully heals a creature and removes several serious conditions.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": {
+                    "amount": "restores target to maximum Hit Points"
+                },
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "ends several conditions including charmed, frightened, paralyzed, poisoned, and stunned as applicable"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "one creature",
+                    "count": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Power Word Kill",
+        "category": "spell",
+        "description": "Speak a lethal word capable of instantly killing or severely harming a creature.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "target with 100 Hit Points or fewer dies instantly; otherwise spell has no effect"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Power Word Kill",
+        "category": "spell",
+        "description": "Speak a lethal word capable of instantly killing or severely harming a creature.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "takes heavy psychic damage instead of dying"
+                },
+                "damage": [
+                    {
+                        "dice": "12d12",
+                        "type": "psychic",
+                        "condition": "successful save"
+                    }
+                ],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "failed save kills the target"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Prismatic Wall",
+        "category": "spell",
+        "description": "Create a brilliant multilayered wall whose seven colors each produce a different dangerous magical effect.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 minutes",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "wall or sphere",
+                    "size": "wall up to 90 feet long and 30 feet high, or sphere up to 30 feet diameter"
+                },
+                "conditions": [
+                    {
+                        "effect": "seven colored layers each impose a distinct damage or control effect"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Prismatic Wall",
+        "category": "spell",
+        "description": "Create a brilliant multilayered wall whose seven colors each produce a different dangerous magical effect.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 minutes",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "wall or sphere",
+                    "size": "wall up to 90 feet long and 30 feet high, or sphere up to 30 feet diameter"
+                },
+                "conditions": [
+                    {
+                        "effect": "seven colored layers each impose a distinct damage or control effect"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Shapechange",
+        "category": "spell",
+        "description": "Transform yourself into powerful creature forms while retaining key aspects of your own identity.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A jade circlet worth at least 1,500 GP",
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "transform into another creature form and adopt many of its game statistics"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Shapechange",
+        "category": "spell",
+        "description": "Transform yourself into powerful creature forms while retaining key aspects of your own identity.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A jade circlet worth at least 1,500 GP",
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "transform into another creature form and adopt many of its game statistics"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Storm of Vengeance",
+        "category": "spell",
+        "description": "Create a vast supernatural storm whose effects intensify and change over several rounds.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Sight",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "storm cloud",
+                    "size": "360-foot radius"
+                },
+                "conditions": [
+                    {
+                        "effect": "storm produces changing effects each round including thunder, acid rain, lightning, hail, and wind"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Time Stop",
+        "category": "spell",
+        "description": "Briefly stop time for everyone but yourself, giving you several turns to act alone.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "take 1d4 + 1 consecutive turns while time is stopped for other creatures"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "True Polymorph",
+        "category": "spell",
+        "description": "Transform a creature or object into another creature or object, potentially making the transformation permanent.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A drop of mercury, a dollop of gum arabic, and a wisp of smoke",
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "unwilling target resists transformation"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "transform creature into creature, creature into object, or object into creature"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "True Polymorph",
+        "category": "spell",
+        "description": "Transform a creature or object into another creature or object, potentially making the transformation permanent.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A drop of mercury, a dollop of gum arabic, and a wisp of smoke",
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "unwilling target resists transformation"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "transform creature into creature, creature into object, or object into creature"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "True Resurrection",
+        "category": "spell",
+        "description": "Return a creature that has been dead for up to two centuries to life, restoring its body if necessary.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "necromancy",
+            "casting_time": "1 hour",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S",
+                "M"
+            ],
+            "material": "A sprinkle of holy water and diamonds worth at least 25,000 GP, consumed",
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": {
+                    "amount": "returns target to life with full Hit Points"
+                },
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "target may have been dead up to 200 years and need not have an intact body"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Weird",
+        "category": "spell",
+        "description": "Assault creatures with terrifying illusory manifestations drawn from their deepest fears.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "resists or ends fear effect"
+                },
+                "damage": [
+                    {
+                        "dice": "4d10",
+                        "type": "psychic",
+                        "condition": "while affected, depending on rules version"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "30-foot radius"
+                },
+                "conditions": [
+                    {
+                        "condition": "frightened"
+                    },
+                    {
+                        "effect": "illusory fears assault affected creatures"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Weird",
+        "category": "spell",
+        "description": "Assault creatures with terrifying illusory manifestations drawn from their deepest fears.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "resists or ends fear effect"
+                },
+                "damage": [
+                    {
+                        "dice": "4d10",
+                        "type": "psychic",
+                        "condition": "while affected, depending on rules version"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "30-foot radius"
+                },
+                "conditions": [
+                    {
+                        "condition": "frightened"
+                    },
+                    {
+                        "effect": "illusory fears assault affected creatures"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Wish",
+        "category": "spell",
+        "description": "Reshape reality with the most powerful mortal spell, safely duplicating lesser spells or attempting far greater effects.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "duplicate any spell of level 8 or lower without meeting its normal requirements"
+                    },
+                    {
+                        "effect": "attempt other reality-altering effects at the risk of severe magical stress"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Wish",
+        "category": "spell",
+        "description": "Reshape reality with the most powerful mortal spell, safely duplicating lesser spells or attempting far greater effects.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 9,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "duplicate any spell of level 8 or lower without meeting its normal requirements"
+                    },
+                    {
+                        "effect": "attempt other reality-altering effects at the risk of severe magical stress"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    }
+]

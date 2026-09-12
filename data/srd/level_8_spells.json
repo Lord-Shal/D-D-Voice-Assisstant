@@ -1,0 +1,1078 @@
+[
+    {
+        "name": "Animal Shapes",
+        "category": "spell",
+        "description": "Transform any number of willing creatures into Beast forms and change those forms again while the spell lasts.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 24 hours",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "transform targets into Beast forms and change forms on later turns"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "willing creatures you can see",
+                    "count": "any number in range"
+                }
+            }
+        }
+    },
+    {
+        "name": "Animal Shapes",
+        "category": "spell",
+        "description": "Transform any number of willing creatures into Beast forms and change those forms again while the spell lasts.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 24 hours",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "transform targets into Beast forms and change forms on later turns"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "willing creatures you can see",
+                    "count": "any number in range"
+                }
+            }
+        }
+    },
+    {
+        "name": "Antimagic Field",
+        "category": "spell",
+        "description": "Create a zone around yourself that suppresses spells, magic items, summoned creatures, and many other magical effects.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Self (10-foot emanation)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "emanation",
+                    "size": "10 feet"
+                },
+                "conditions": [
+                    {
+                        "effect": "suppresses spells, magic items, summoned creatures, and other magical effects within the field"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Antipathy/Sympathy",
+        "category": "spell",
+        "description": "Enchant a creature, object, or area so a chosen kind of creature is either strongly repelled by it or drawn toward it.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "enchantment",
+            "casting_time": "1 hour",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 days",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "resists attraction or repulsion"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "chosen creature kind is magically attracted to or repelled by the target"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Antipathy/Sympathy",
+        "category": "spell",
+        "description": "Enchant a creature, object, or area so a chosen kind of creature is either strongly repelled by it or drawn toward it.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "enchantment",
+            "casting_time": "1 hour",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "10 days",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "resists attraction or repulsion"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "chosen creature kind is magically attracted to or repelled by the target"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Clone",
+        "category": "spell",
+        "description": "Create an inert duplicate body that can receive a creature's soul after death once the clone has fully matured.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "necromancy",
+            "casting_time": "1 hour",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "creates inert duplicate body that can receive the creature's soul after death"
+                    },
+                    {
+                        "effect": "clone matures over 120 days"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Control Weather",
+        "category": "spell",
+        "description": "Gradually alter the weather in a wide area by changing precipitation, temperature, and wind conditions.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "transmutation",
+            "casting_time": "10 minutes",
+            "range": "Self (5-mile radius)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 8 hours",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "radius",
+                    "size": "5 miles"
+                },
+                "conditions": [
+                    {
+                        "effect": "gradually alter precipitation, temperature, and wind"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Demiplane",
+        "category": "spell",
+        "description": "Open a door to a small extradimensional room, either creating a new demiplane or reconnecting to one you know.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "creates or reconnects to an extradimensional room through a shadowy door"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Dominate Monster",
+        "category": "spell",
+        "description": "Charm a creature and exert telepathic influence or direct control over its actions.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "no effect"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "condition": "charmed"
+                    },
+                    {
+                        "effect": "telepathic commands and direct control"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": "Duration increases with a level 9 slot.",
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Dominate Monster",
+        "category": "spell",
+        "description": "Charm a creature and exert telepathic influence or direct control over its actions.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 hour",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "no effect"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "condition": "charmed"
+                    },
+                    {
+                        "effect": "telepathic commands and direct control"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": "Duration increases with a level 9 slot.",
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Earthquake",
+        "category": "spell",
+        "description": "Shake a large area violently, creating difficult terrain, fissures, collapsing structures, and other hazards.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "500 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid",
+                    "sorcerer"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "remain standing / avoid some hazards"
+                },
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "circle",
+                    "size": "100-foot radius"
+                },
+                "conditions": [
+                    {
+                        "effect": "ground becomes difficult terrain"
+                    },
+                    {
+                        "condition": "prone",
+                        "on": "failed save"
+                    },
+                    {
+                        "effect": "fissures open and structures can collapse"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Feeblemind",
+        "category": "spell",
+        "description": "Assault a creature's mind with psychic force, severely impairing its Intelligence, Charisma, communication, and spellcasting.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "druid",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "intelligence",
+                    "effect_on_success": "half or no secondary effect depending on rules version"
+                },
+                "damage": [
+                    {
+                        "dice": "4d6",
+                        "type": "psychic"
+                    }
+                ],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "severely reduces mental capabilities and prevents spellcasting"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Glibness",
+        "category": "spell",
+        "description": "Magically enhance your speech so Charisma checks become exceptionally reliable and truth-detecting magic is easier to fool.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "1 hour",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "warlock"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "Charisma checks can treat low d20 rolls as 15"
+                    },
+                    {
+                        "effect": "magic that detects truth reads your statements as truthful"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Holy Aura",
+        "category": "spell",
+        "description": "Surround nearby allies with divine protection that improves their defenses and can blind Fiends and Undead that attack them.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Self (30-foot emanation)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "emanation",
+                    "size": "30 feet"
+                },
+                "conditions": [
+                    {
+                        "effect": "allies gain advantage on saving throws and attacks against them have disadvantage"
+                    },
+                    {
+                        "effect": "Fiends and Undead can be blinded when striking protected creatures"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Incendiary Cloud",
+        "category": "spell",
+        "description": "Create a moving cloud of burning smoke that heavily obscures an area and repeatedly deals fire damage.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "150 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d8",
+                        "type": "fire"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "20-foot radius"
+                },
+                "conditions": [
+                    {
+                        "effect": "cloud is heavily obscured and moves each round"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Incendiary Cloud",
+        "category": "spell",
+        "description": "Create a moving cloud of burning smoke that heavily obscures an area and repeatedly deals fire damage.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "150 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d8",
+                        "type": "fire"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "20-foot radius"
+                },
+                "conditions": [
+                    {
+                        "effect": "cloud is heavily obscured and moves each round"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Maze",
+        "category": "spell",
+        "description": "Banish a creature into a labyrinthine demiplane until it finds its way out or the spell ends.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 10 minutes",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "banishes target to a labyrinthine demiplane; target can attempt to escape"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Mind Blank",
+        "category": "spell",
+        "description": "Protect a creature from psychic damage, mind reading, emotional manipulation, divination, and charm effects.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "24 hours",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "immunity to psychic damage, mind reading, emotion sensing, divination, and charm effects"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Power Word Stun",
+        "category": "spell",
+        "description": "Speak a word of power that stuns a creature, with the exact duration and limitations depending on the rules version.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "stunned effect ends"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "condition": "stunned",
+                        "threshold": "150 Hit Points or fewer",
+                        "duration": "until successful end-of-turn save"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Power Word Stun",
+        "category": "spell",
+        "description": "Speak a word of power that stuns a creature, with the exact duration and limitations depending on the rules version.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "stunned effect ends"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "condition": "stunned",
+                        "duration": "until target succeeds on an end-of-turn Constitution save"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Sunburst",
+        "category": "spell",
+        "description": "Release an intense burst of sunlight that deals radiant damage over a large area and can blind affected creatures.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "150 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage and not blinded"
+                },
+                "damage": [
+                    {
+                        "dice": "12d6",
+                        "type": "radiant"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "60-foot radius"
+                },
+                "conditions": [
+                    {
+                        "condition": "blinded",
+                        "duration": "1 minute; repeat save as allowed"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Sunburst",
+        "category": "spell",
+        "description": "Release an intense burst of sunlight that deals radiant damage over a large area and can blind affected creatures.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 8,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "150 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage and not blinded"
+                },
+                "damage": [
+                    {
+                        "dice": "12d6",
+                        "type": "radiant"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "60-foot radius"
+                },
+                "conditions": [
+                    {
+                        "condition": "blinded",
+                        "duration": "1 minute; repeat save as allowed"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    }
+]

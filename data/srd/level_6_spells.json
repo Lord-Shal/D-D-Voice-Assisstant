@@ -1,0 +1,2073 @@
+[
+    {
+        "name": "Arcane Gate",
+        "category": "spell",
+        "description": "Create two linked portals within range that creatures and objects can pass through.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "500 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "creates two linked portals"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Blade Barrier",
+        "category": "spell",
+        "description": "Create a wall of whirling magical blades that blocks movement and damages creatures passing through it.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "90 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "6d10",
+                        "type": "force/slashing"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "wall",
+                    "size": "up to 100 feet long, 20 feet high, 5 feet thick"
+                },
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Blade Barrier",
+        "category": "spell",
+        "description": "Create a wall of whirling magical blades that blocks movement and damages creatures passing through it.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "90 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "6d10",
+                        "type": "force/slashing"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "wall",
+                    "size": "up to 100 feet long, 20 feet high, 5 feet thick"
+                },
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Chain Lightning",
+        "category": "spell",
+        "description": "Strike one creature with lightning that leaps to several nearby targets.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "150 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d8",
+                        "type": "lightning"
+                    }
+                ],
+                "healing": null,
+                "area": null,
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": "One additional secondary target per slot level above 6.",
+                "targets": {
+                    "type": "primary plus secondary creatures",
+                    "count": 4
+                }
+            }
+        }
+    },
+    {
+        "name": "Circle of Death",
+        "category": "spell",
+        "description": "Release a burst of necrotic energy in a large area, damaging creatures caught within it.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "150 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "8d6",
+                        "type": "necrotic",
+                        "higher_levels": "+2d6 per slot level above 6"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "60-foot radius"
+                },
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Conjure Fey",
+        "category": "spell",
+        "description": "Call forth a fey creature or fey spirit to aid you for the duration.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "warlock"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "summons a fey creature or fey spirit; exact form depends on rules version"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Conjure Fey",
+        "category": "spell",
+        "description": "Call forth a fey creature or fey spirit to aid you for the duration.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "summons a fey creature or fey spirit; exact form depends on rules version"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Contingency",
+        "category": "spell",
+        "description": "Bind another spell to yourself so it automatically takes effect when a condition you choose occurs.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "abjuration",
+            "casting_time": "10 minutes",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "stores a spell on yourself that triggers automatically"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Create Undead",
+        "category": "spell",
+        "description": "Raise corpses as powerful undead servants and maintain control over them.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "necromancy",
+            "casting_time": "1 minute",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "creates or reasserts control over undead"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Disintegrate",
+        "category": "spell",
+        "description": "Fire a destructive ray that deals massive force damage and can reduce a target to dust.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "no damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d6 + 40",
+                        "type": "force",
+                        "higher_levels": "+3d6 per slot level above 6"
+                    }
+                ],
+                "healing": null,
+                "area": null,
+                "conditions": [],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Disintegrate",
+        "category": "spell",
+        "description": "Fire a destructive ray that deals massive force damage and can reduce a target to dust.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "no damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d6 + 40",
+                        "type": "force",
+                        "higher_levels": "+3d6 per slot level above 6"
+                    }
+                ],
+                "healing": null,
+                "area": null,
+                "conditions": [],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Eyebite",
+        "category": "spell",
+        "description": "Empower your gaze to repeatedly inflict sleep, fear, or sickness on creatures you can see.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "resists gaze effect"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "condition": "unconscious",
+                        "option": "asleep"
+                    },
+                    {
+                        "condition": "frightened",
+                        "option": "panicked"
+                    },
+                    {
+                        "condition": "poisoned",
+                        "option": "sickened"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Find the Path",
+        "category": "spell",
+        "description": "Magically learn the most direct physical route to a familiar fixed destination.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "divination",
+            "casting_time": "1 minute",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "reveals the direct physical route to a familiar destination"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Flesh to Stone",
+        "category": "spell",
+        "description": "Gradually petrify a creature that repeatedly fails Constitution saving throws.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "resists petrification progression"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "condition": "restrained"
+                    },
+                    {
+                        "condition": "petrified",
+                        "stage": "after repeated failed saves"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Flesh to Stone",
+        "category": "spell",
+        "description": "Gradually petrify a creature that repeatedly fails Constitution saving throws.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "resists petrification progression"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "condition": "restrained"
+                    },
+                    {
+                        "condition": "petrified",
+                        "stage": "after repeated failed saves"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Forbiddance",
+        "category": "spell",
+        "description": "Ward a large area against planar travel and harm selected types of extraplanar creatures.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "abjuration",
+            "casting_time": "10 minutes or ritual",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [
+                    {
+                        "dice": "5d10",
+                        "type": "radiant or necrotic to selected creature types"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "warded area",
+                    "size": "up to 40,000 square feet, 30 feet high"
+                },
+                "conditions": [
+                    {
+                        "effect": "blocks planar travel into the warded area"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Freezing Sphere",
+        "category": "spell",
+        "description": "Launch a globe of intense cold that explodes over a wide area and can freeze water.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "300 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d6",
+                        "type": "cold",
+                        "higher_levels": "+1d6 per slot level above 6"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "60-foot radius"
+                },
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Freezing Sphere",
+        "category": "spell",
+        "description": "Launch a globe of intense cold that explodes over a wide area and can freeze water.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "300 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d6",
+                        "type": "cold",
+                        "higher_levels": "+1d6 per slot level above 6"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "sphere",
+                    "size": "60-foot radius"
+                },
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Globe of Invulnerability",
+        "category": "spell",
+        "description": "Create a protective barrier that prevents lower-level spells cast from outside from affecting creatures within.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "Self (10-foot emanation)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "emanation",
+                    "size": "10 feet"
+                },
+                "conditions": [
+                    {
+                        "effect": "blocks lower-level spells cast from outside"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": "Blocks one additional spell level per slot level above 6.",
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Guards and Wards",
+        "category": "spell",
+        "description": "Protect a building with a collection of magical defenses such as fog, locked doors, webs, and misleading passages.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "abjuration",
+            "casting_time": "10 minutes",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "creates multiple magical defenses in a structure"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Harm",
+        "category": "spell",
+        "description": "Inflict severe necrotic damage and temporarily reduce a creature's maximum Hit Points.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "14d6",
+                        "type": "necrotic"
+                    }
+                ],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "reduces Hit Point maximum"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Harm",
+        "category": "spell",
+        "description": "Inflict severe necrotic damage and temporarily reduce a creature's maximum Hit Points.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "necromancy",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage"
+                },
+                "damage": [
+                    {
+                        "dice": "14d6",
+                        "type": "necrotic"
+                    }
+                ],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "reduces Hit Point maximum"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Heal",
+        "category": "spell",
+        "description": "Restore a large amount of Hit Points and remove certain debilitating conditions and diseases.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "abjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": {
+                    "amount": "70 hit points"
+                },
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "ends blindness, deafness, and diseases as specified"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": "+10 healing per slot level above 6.",
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Heroes' Feast",
+        "category": "spell",
+        "description": "Create a magical feast that grants lasting protection, resilience, and increased vitality to those who eat it.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "cures diseases and poison"
+                    },
+                    {
+                        "effect": "immunity to poison and frightened"
+                    },
+                    {
+                        "effect": "advantage on Wisdom saves"
+                    },
+                    {
+                        "effect": "Hit Point maximum increase",
+                        "amount": "2d10"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "creatures that partake",
+                    "count": 12
+                }
+            }
+        }
+    },
+    {
+        "name": "Heroes' Feast",
+        "category": "spell",
+        "description": "Create a magical feast that grants lasting protection, resilience, and increased vitality to those who eat it.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "cures diseases and poison"
+                    },
+                    {
+                        "effect": "immunity to poison and frightened"
+                    },
+                    {
+                        "effect": "advantage on Wisdom saves"
+                    },
+                    {
+                        "effect": "Hit Point maximum increase",
+                        "amount": "2d10"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "creatures that partake",
+                    "count": 12
+                }
+            }
+        }
+    },
+    {
+        "name": "Instant Summons",
+        "category": "spell",
+        "description": "Magically mark an object so you can later summon it to your hand or learn who possesses it.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 minute or ritual",
+            "range": "Touch",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": true,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "marks an item so it can later be summoned or located"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Irresistible Dance",
+        "category": "spell",
+        "description": "Force a creature to dance uncontrollably, disrupting its movement and ability to defend itself.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "ends or resists effect depending on rules version"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "forced dance restricts movement and defenses"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Irresistible Dance",
+        "category": "spell",
+        "description": "Force a creature to dance uncontrollably, disrupting its movement and ability to defend itself.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "ends or resists effect depending on rules version"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "forced dance restricts movement and defenses"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Magic Jar",
+        "category": "spell",
+        "description": "Place your soul into a container and use it to possess the body of another Humanoid.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "necromancy",
+            "casting_time": "1 minute",
+            "range": "Self",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "charisma",
+                    "effect_on_success": "possession attempt fails"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "soul enters container and can possess a Humanoid"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Mass Suggestion",
+        "category": "spell",
+        "description": "Magically influence several creatures to follow a reasonable course of action for an extended period.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "no effect"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "follow a reasonable suggested course of action"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": "Duration increases with higher-level slots.",
+                "targets": {
+                    "type": "creatures",
+                    "count": 12
+                }
+            }
+        }
+    },
+    {
+        "name": "Mass Suggestion",
+        "category": "spell",
+        "description": "Magically influence several creatures to follow a reasonable course of action for an extended period.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "wisdom",
+                    "effect_on_success": "no effect"
+                },
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "follow a reasonable suggested course of action"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": "Duration increases with higher-level slots.",
+                "targets": {
+                    "type": "creatures",
+                    "count": 12
+                }
+            }
+        }
+    },
+    {
+        "name": "Move Earth",
+        "category": "spell",
+        "description": "Reshape large areas of loose earth such as dirt, sand, or clay over time.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "transmutation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "reshapes dirt, sand, or clay over time"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Planar Ally",
+        "category": "spell",
+        "description": "Call upon a powerful extraplanar being to appear and negotiate assistance.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "10 minutes",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "requests aid from an extraplanar servant"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Programmed Illusion",
+        "category": "spell",
+        "description": "Create an illusion that remains dormant until a trigger you define causes it to appear.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "illusion",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": {
+                    "shape": "illusion",
+                    "size": "30-foot cube"
+                },
+                "conditions": [
+                    {
+                        "effect": "illusion activates on a defined trigger"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Sunbeam",
+        "category": "spell",
+        "description": "Project repeated beams of brilliant sunlight that deal radiant damage and can blind creatures.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Self (60-foot line)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage and not blinded"
+                },
+                "damage": [
+                    {
+                        "dice": "6d8",
+                        "type": "radiant"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "line",
+                    "size": "60 feet long, 5 feet wide"
+                },
+                "conditions": [
+                    {
+                        "condition": "blinded",
+                        "duration": "until your next turn on failed save"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Sunbeam",
+        "category": "spell",
+        "description": "Project repeated beams of brilliant sunlight that deal radiant damage and can blind creatures.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "Self (60-foot line)",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric",
+                    "druid",
+                    "sorcerer",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "constitution",
+                    "effect_on_success": "half damage and not blinded"
+                },
+                "damage": [
+                    {
+                        "dice": "6d8",
+                        "type": "radiant"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "line",
+                    "size": "60 feet long, 5 feet wide"
+                },
+                "conditions": [
+                    {
+                        "condition": "blinded",
+                        "duration": "until your next turn on failed save"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Transport via Plants",
+        "category": "spell",
+        "description": "Create a temporary passage between two large plants on the same plane.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "10 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "creates a temporary portal between large plants"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "True Seeing",
+        "category": "spell",
+        "description": "Grant a creature truesight so it can perceive hidden, transformed, and illusory things more accurately.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "divination",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "bard",
+                    "cleric",
+                    "sorcerer",
+                    "warlock",
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "grants truesight",
+                        "range": "120 feet"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Wall of Ice",
+        "category": "spell",
+        "description": "Create a wall of solid ice that damages nearby creatures and releases freezing air when broken.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "wizard"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half initial damage"
+                },
+                "damage": [
+                    {
+                        "dice": "10d6",
+                        "type": "cold"
+                    },
+                    {
+                        "dice": "5d6",
+                        "type": "cold from frigid air"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "wall or dome",
+                    "size": "ten 10-foot-square panels"
+                },
+                "conditions": [],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Wall of Thorns",
+        "category": "spell",
+        "description": "Create a dense barrier of thorny vegetation that severely hinders movement and injures creatures passing through it.",
+        "source": "SRD 5.1",
+        "ruleset": "5e-2014",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half initial damage"
+                },
+                "damage": [
+                    {
+                        "dice": "7d8",
+                        "type": "piercing/slashing"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "wall",
+                    "size": "up to 60 feet long, 10 feet high, 5 feet thick"
+                },
+                "conditions": [
+                    {
+                        "effect": "severely impedes movement"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Wall of Thorns",
+        "category": "spell",
+        "description": "Create a dense barrier of thorny vegetation that severely hinders movement and injures creatures passing through it.",
+        "source": "SRD 5.2.1",
+        "ruleset": "5e-2024",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Concentration, up to 1 minute",
+            "concentration": true,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": {
+                    "ability": "dexterity",
+                    "effect_on_success": "half initial damage"
+                },
+                "damage": [
+                    {
+                        "dice": "7d8",
+                        "type": "piercing/slashing"
+                    }
+                ],
+                "healing": null,
+                "area": {
+                    "shape": "wall",
+                    "size": "up to 60 feet long, 10 feet high, 5 feet thick"
+                },
+                "conditions": [
+                    {
+                        "effect": "severely impedes movement"
+                    }
+                ],
+                "half_damage_on_save": true,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Wind Walk",
+        "category": "spell",
+        "description": "Transform yourself and allies into fast-moving cloudlike forms suited for long-distance travel.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "transmutation",
+            "casting_time": "1 minute",
+            "range": "30 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "druid"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "turns targets into fast cloudlike travel forms"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": null
+            }
+        }
+    },
+    {
+        "name": "Word of Recall",
+        "category": "spell",
+        "description": "Instantly transport yourself and nearby willing creatures to a previously designated sanctuary.",
+        "source": "SRD 5.1 / SRD 5.2.1",
+        "ruleset": "5e",
+        "aliases": [],
+        "data": {
+            "level": 6,
+            "school": "conjuration",
+            "casting_time": "1 action",
+            "range": "5 feet",
+            "components": [
+                "V",
+                "S"
+            ],
+            "duration": "Instantaneous",
+            "concentration": false,
+            "ritual": false,
+            "spell_access": {
+                "classes": [
+                    "cleric"
+                ],
+                "subclasses": []
+            },
+            "mechanics": {
+                "attack_type": null,
+                "saving_throw": null,
+                "damage": [],
+                "healing": null,
+                "area": null,
+                "conditions": [
+                    {
+                        "effect": "teleport to designated sanctuary"
+                    }
+                ],
+                "half_damage_on_save": false,
+                "higher_levels": null,
+                "targets": {
+                    "type": "self and willing nearby creatures",
+                    "count": 6
+                }
+            }
+        }
+    }
+]
