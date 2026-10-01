@@ -7,7 +7,7 @@ class TranscriptionError(Exception):
 class SpeechTranscriber:
     def __init__(self):
         try:
-            self.model = WhisperModel("small", device="cpu", compute_type="int8")
+            self.model = WhisperModel("base", device="cpu", compute_type="int8")
         except Exception as error:
             raise TranscriptionError(f"Could not load Whisper model: {error}") from error
 
