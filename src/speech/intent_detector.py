@@ -16,7 +16,23 @@ class MusicCue:
     confidence: float = 0.0
     raw_reasoning: Optional[str] = None
 
-VALID_MOODS =["combat", "tavern", "tension", "victory", "exploration", "boss", "sad", "morning", "spooky"] #extend list to match spotify playlist
+
+
+CANDIDATE_MOODS =["exploration", "tavern", "tension", "victory", "adventure", "boss", "sad", "morning", "spooky", "city", "night", "windy", "sunrise", "scary", "whimsical", "circus", "cozy", "war", "family", "sorrow", "hope","despair", "anger", "frustration"] #extend list to match spotify playlist
+TAGS_FILE = "mood_tags.json" 
+ 
+
+def load_valid_moods(tags_file=TAGS_FILE):
+    """Return the moods that actually appear in the tag file."""
+    try:
+        with open(tags_file, encoding="utf-8") as f:
+            tagged = json.load(f)
+    except (OSError, json.JSONDecodeError):          
+        return list(CANDIDATE_MOODS)                
+    moods = sorted({m.lower() for t in tagged for m in t.get("moods", [])})
+    return moods or list(CANDIDATE_MOODS)            
+
+VALID_MOODS = load_valid_moods()
 
 SYSTEM_PROMPT = f"""You are monitoring a live transcript of a Dungeons & Dragons session.
 Your only job is to detect when the Dungeon Master's speech implies background music should
