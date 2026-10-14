@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Concentration",
+    "category": "rule",
+    "description": "Only one concentration spell at a time. Taking damage requires a Constitution saving throw with DC 10 or half the damage taken, whichever is higher.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "concentration check",
+      "maintain concentration"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ],
+      "saving_throw": "constitution"
+    }
+  },
+  {
+    "name": "Spell Save DC",
+    "category": "rule",
+    "description": "Spell save DC equals 8 + proficiency bonus + spellcasting ability modifier.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "save DC"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ],
+      "formula": "8 + proficiency bonus + spellcasting ability modifier"
+    }
+  },
+  {
+    "name": "Spell Attack Modifier",
+    "category": "rule",
+    "description": "Spell attack modifier equals proficiency bonus + spellcasting ability modifier.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "spell to hit"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ]
+    }
+  },
+  {
+    "name": "Spell Components",
+    "category": "rule",
+    "description": "Spells may require verbal, somatic, and material components. A focus or component pouch can replace material components without listed costs, but not consumed or priced materials.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "VSM",
+      "components"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ]
+    }
+  },
+  {
+    "name": "Bonus Action Spell",
+    "category": "rule",
+    "description": "If you cast a spell as a bonus action, the only other spell you can cast that turn is a cantrip with a casting time of one action.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "bonus action casting"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ]
+    }
+  },
+  {
+    "name": "Ritual Casting",
+    "category": "rule",
+    "description": "A spell with the ritual tag can be cast as a ritual by a caster with an appropriate feature, adding 10 minutes without spending a slot.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "ritual"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ]
+    }
+  },
+  {
+    "name": "Spell Slots",
+    "category": "rule",
+    "description": "Casting a leveled spell normally expends a slot of its level or higher; cantrips do not require slots.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "spell slot"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ]
+    }
+  }
+  {
+    "name": "Spell Points",
+    "category": "optional_rule",
+    "description": "Optional alternative to spell slots, described in the 2014 Dungeon Master’s Guide.",
+    "source": "Dungeon Master’s Guide (2014)",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "spell point variant"
+    ],
+    "data": {
+      "tags": [
+        "spellcasting"
+      ]
+    }
+  }
+]

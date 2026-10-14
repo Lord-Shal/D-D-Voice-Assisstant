@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Travel Pace",
+    "category": "rule",
+    "description": "Fast, normal, and slow travel paces affect distance traveled and perception or stealth.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "travel speed"
+    ],
+    "data": {
+      "tags": [
+        "exploration"
+      ]
+    }
+  },
+  {
+    "name": "Falling",
+    "category": "rule",
+    "description": "A creature takes 1d6 bludgeoning damage per 10 feet fallen, up to 20d6, and lands prone unless it avoids the damage.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "fall damage"
+    ],
+    "data": {
+      "tags": [
+        "exploration"
+      ]
+    }
+  },
+  {
+    "name": "Suffocating",
+    "category": "rule",
+    "description": "A creature can hold its breath for 1 + Constitution modifier minutes (minimum 30 seconds); after running out of breath, it survives a limited number of rounds before dropping to 0 HP.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "drowning",
+      "holding breath"
+    ],
+    "data": {
+      "tags": [
+        "exploration"
+      ]
+    }
+  },
+  {
+    "name": "Vision and Light",
+    "category": "rule",
+    "description": "Lightly obscured areas impose disadvantage on sight-based Wisdom (Perception) checks; heavily obscured areas block vision.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "darkness",
+      "dim light"
+    ],
+    "data": {
+      "tags": [
+        "exploration"
+      ]
+    }
+  }
+]

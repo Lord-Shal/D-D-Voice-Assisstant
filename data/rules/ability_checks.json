@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Ability Check",
+    "category": "rule",
+    "description": "Roll d20 plus relevant ability modifier, adding proficiency bonus if proficient in the applicable skill or tool.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "skill check",
+      "check"
+    ],
+    "data": {
+      "tags": [
+        "ability"
+      ]
+    }
+  },
+  {
+    "name": "Advantage and Disadvantage",
+    "category": "rule",
+    "description": "With advantage roll two d20s and use the higher; with disadvantage use the lower. Multiple sources do not stack, and advantage and disadvantage cancel.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "adv",
+      "disadv"
+    ],
+    "data": {
+      "tags": [
+        "ability"
+      ]
+    }
+  },
+  {
+    "name": "Passive Checks",
+    "category": "rule",
+    "description": "Passive check total is 10 + modifiers, with +5 for advantage or -5 for disadvantage.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "passive perception"
+    ],
+    "data": {
+      "tags": [
+        "ability"
+      ]
+    }
+  },
+  {
+    "name": "Contests",
+    "category": "rule",
+    "description": "When efforts directly oppose each other, participants make relevant ability checks and compare totals; ties preserve the existing situation.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "contested check"
+    ],
+    "data": {
+      "tags": [
+        "ability"
+      ]
+    }
+  },
+  {
+    "name": "Proficiency Bonus",
+    "category": "rule",
+    "description": "Add proficiency bonus once to an applicable roll unless a feature changes it; proficiency scales by character level.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "prof bonus"
+    ],
+    "data": {
+      "tags": [
+        "ability"
+      ]
+    }
+  },
+  {
+    "name": "Skills with Different Abilities",
+    "category": "optional_rule",
+    "description": "The DM can call for a skill proficiency with a different ability score when the task calls for it, such as Strength (Intimidation).",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "alternate skill ability"
+    ],
+    "data": {
+      "tags": [
+        "ability"
+      ]
+    }
+  }
+]

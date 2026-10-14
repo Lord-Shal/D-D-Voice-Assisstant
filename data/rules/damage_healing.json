@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Hit Points",
+    "category": "rule",
+    "description": "Damage reduces current hit points; healing restores them up to maximum.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "HP"
+    ],
+    "data": {
+      "tags": [
+        "health"
+      ]
+    }
+  },
+  {
+    "name": "Dropping to Zero Hit Points",
+    "category": "rule",
+    "description": "At 0 HP a creature normally falls unconscious and makes death saves, unless killed outright or subject to another rule.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "downed",
+      "zero hp"
+    ],
+    "data": {
+      "tags": [
+        "health"
+      ]
+    }
+  },
+  {
+    "name": "Instant Death",
+    "category": "rule",
+    "description": "If damage reduces you to 0 HP and remaining damage equals or exceeds your hit point maximum, you die instantly.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "massive damage"
+    ],
+    "data": {
+      "tags": [
+        "health"
+      ]
+    }
+  },
+  {
+    "name": "Damage Resistance",
+    "category": "rule",
+    "description": "Resistance halves damage of the relevant type, rounding down.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "resistant"
+    ],
+    "data": {
+      "tags": [
+        "damage"
+      ]
+    }
+  },
+  {
+    "name": "Damage Vulnerability",
+    "category": "rule",
+    "description": "Vulnerability doubles damage of the relevant type.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "vulnerable"
+    ],
+    "data": {
+      "tags": [
+        "damage"
+      ]
+    }
+  },
+  {
+    "name": "Temporary Hit Points",
+    "category": "rule",
+    "description": "Temporary HP absorb damage before normal HP, do not stack, and cannot be restored by healing.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "temp hp",
+      "THP"
+    ],
+    "data": {
+      "tags": [
+        "health"
+      ]
+    }
+  },
+  {
+    "name": "Stabilizing a Creature",
+    "category": "rule",
+    "description": "Use an action to make a DC 10 Wisdom (Medicine) check to stabilize a creature at 0 HP; a stabilized creature remains unconscious.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "stabilize"
+    ],
+    "data": {
+      "tags": [
+        "health"
+      ],
+      "dc": 10
+    }
+  }
+]

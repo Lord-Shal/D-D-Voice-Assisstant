@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Short Rest",
+    "category": "rule",
+    "description": "At least one hour of downtime; characters may spend Hit Dice to recover HP.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "short rest"
+    ],
+    "data": {
+      "tags": [
+        "rest"
+      ],
+      "minimum_minutes": 60
+    }
+  },
+  {
+    "name": "Long Rest",
+    "category": "rule",
+    "description": "At least eight hours, including at least six hours of sleep and no more than two hours of light activity; restores HP and up to half total Hit Dice (minimum one).",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "long rest"
+    ],
+    "data": {
+      "tags": [
+        "rest"
+      ],
+      "minimum_hours": 8
+    }
+  },
+  {
+    "name": "Hit Dice Recovery",
+    "category": "rule",
+    "description": "During a short rest, spend Hit Dice, adding Constitution modifier to each roll (minimum 0 HP restored per die).",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "hit dice"
+    ],
+    "data": {
+      "tags": [
+        "rest"
+      ]
+    }
+  }
+]

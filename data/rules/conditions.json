@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Blinded",
+    "category": "rule",
+    "description": "Cannot see, automatically fails sight-dependent ability checks; attacks against it have advantage and its attacks have disadvantage.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "blind"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Charmed",
+    "category": "rule",
+    "description": "Cannot attack the charmer or target it with harmful abilities; charmer has advantage on social checks with it.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "charm"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Deafened",
+    "category": "rule",
+    "description": "Cannot hear and automatically fails hearing-dependent ability checks.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "deaf"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Frightened",
+    "category": "rule",
+    "description": "Disadvantage on ability checks and attack rolls while source of fear is in sight; cannot willingly move closer to source.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "fear"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Grappled",
+    "category": "rule",
+    "description": "Speed becomes 0; ends if grappler is incapacitated or an effect moves the grappled creature out of reach.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "grappled"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Incapacitated",
+    "category": "rule",
+    "description": "Cannot take actions or reactions.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "incap"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Invisible",
+    "category": "rule",
+    "description": "Cannot be seen without magic or special senses; attacks against it have disadvantage and its attacks have advantage, subject to other rules.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "invisibility"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Paralyzed",
+    "category": "rule",
+    "description": "Incapacitated, cannot move or speak, automatically fails Strength and Dexterity saves; attacks have advantage; hits from attackers within 5 feet are critical hits.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "paralysed"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Petrified",
+    "category": "rule",
+    "description": "Transformed into solid inanimate substance; incapacitated, cannot move or speak, unaware of surroundings; resistance to all damage and immunity to poison and disease, with other condition effects.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "stone"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Poisoned",
+    "category": "rule",
+    "description": "Disadvantage on attack rolls and ability checks.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "poison"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Prone",
+    "category": "rule",
+    "description": "Only crawl unless standing up; disadvantage on own attack rolls; attacks within 5 feet have advantage, farther attacks have disadvantage.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "knocked down"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Restrained",
+    "category": "rule",
+    "description": "Speed 0; attacks against it have advantage, its attacks have disadvantage, and it has disadvantage on Dexterity saving throws.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "restrain"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Stunned",
+    "category": "rule",
+    "description": "Incapacitated, cannot move, can speak only falteringly, automatically fails Strength and Dexterity saves; attacks against it have advantage.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "stun"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Unconscious",
+    "category": "rule",
+    "description": "Incapacitated, cannot move or speak, unaware, drops held items, falls prone; automatically fails Strength and Dexterity saves; attacks have advantage and hits from within 5 feet are critical.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "knocked out"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ]
+    }
+  },
+  {
+    "name": "Exhaustion",
+    "category": "rule",
+    "description": "Six levels of exhaustion impose escalating penalties, from disadvantage on ability checks to death at level 6. A long rest with food and drink removes one level.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "exhausted"
+    ],
+    "data": {
+      "tags": [
+        "condition"
+      ],
+      "levels": 6
+    }
+  }
+]

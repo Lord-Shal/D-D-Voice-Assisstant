@@ -1,0 +1,93 @@
+[
+  {
+    "name": "D20 Test",
+    "category": "rule",
+    "description": "For ability checks, attacks, and saving throws, roll d20 and add applicable modifiers, comparing to a target number.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "d20 roll"
+    ],
+    "data": {
+      "tags": [
+        "core"
+      ]
+    }
+  },
+  {
+    "name": "Difficulty Class",
+    "category": "rule",
+    "description": "A DC is a target number for an ability check or saving throw; meeting or exceeding it succeeds.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "DC"
+    ],
+    "data": {
+      "tags": [
+        "core"
+      ]
+    }
+  },
+  {
+    "name": "Rounding Down",
+    "category": "rule",
+    "description": "Unless otherwise specified, round down when dividing a number in the game.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "round down"
+    ],
+    "data": {
+      "tags": [
+        "core"
+      ]
+    }
+  },
+  {
+    "name": "Specific Beats General",
+    "category": "rule",
+    "description": "A specific rule overrides a general rule when they conflict.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "specific rule"
+    ],
+    "data": {
+      "tags": [
+        "core"
+      ]
+    }
+  },
+  {
+    "name": "Natural 20 on Ability Checks",
+    "category": "rule",
+    "description": "A natural 20 on an ability check is not automatically a success under 2014 5e rules.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "nat 20 skill check"
+    ],
+    "data": {
+      "tags": [
+        "core"
+      ]
+    }
+  },
+  {
+    "name": "Multiclassing",
+    "category": "optional_rule",
+    "description": "With DM permission, characters can take levels in multiple classes. Class prerequisites, proficiencies, spellcasting, and class features follow multiclass rules.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "multi class",
+      "multiclass"
+    ],
+    "data": {
+      "tags": [
+        "character"
+      ]
+    }
+  }
+]

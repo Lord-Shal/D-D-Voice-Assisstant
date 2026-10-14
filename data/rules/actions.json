@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Attack Action",
+    "category": "rule",
+    "description": "Make one melee or ranged attack, or more if a feature such as Extra Attack allows.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "attack"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Cast a Spell Action",
+    "category": "rule",
+    "description": "Cast a spell with a casting time of one action; spells with other casting times follow their own rules.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "cast spell"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Dash Action",
+    "category": "rule",
+    "description": "Gain extra movement for the current turn equal to your speed after modifiers.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "dash"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Disengage Action",
+    "category": "rule",
+    "description": "Your movement does not provoke opportunity attacks for the rest of your turn.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "disengage"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Dodge Action",
+    "category": "rule",
+    "description": "Until the start of your next turn, attacks against you have disadvantage if you can see the attacker, and you have advantage on Dexterity saving throws, provided you are not incapacitated and your speed is not 0.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "dodge"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Help Action",
+    "category": "rule",
+    "description": "Give an ally advantage on the next relevant ability check, or aid an ally attacking a creature within 5 feet of you.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "help"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Hide Action",
+    "category": "rule",
+    "description": "Make a Dexterity (Stealth) check to attempt to hide, subject to visibility and DM adjudication.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "hide"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Ready Action",
+    "category": "rule",
+    "description": "Choose a perceivable trigger and an action or movement to perform using your reaction before your next turn. Readying a spell requires concentration.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "hold action",
+      "ready"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Search Action",
+    "category": "rule",
+    "description": "Devote attention to finding something, usually with a Wisdom (Perception) or Intelligence (Investigation) check.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "search"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Use an Object Action",
+    "category": "rule",
+    "description": "Interact with an object that requires your action, beyond the free object interaction normally available on your turn.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "use object"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Bonus Action",
+    "category": "rule",
+    "description": "You can take a bonus action only when a feature or spell permits it, and only one on your turn.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "BA"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  },
+  {
+    "name": "Reaction",
+    "category": "rule",
+    "description": "A special response to a trigger, available once until the start of your next turn.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "react"
+    ],
+    "data": {
+      "tags": [
+        "action"
+      ]
+    }
+  }
+]

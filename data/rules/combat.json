@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Initiative",
+    "category": "rule",
+    "description": "At the start of combat, each participant makes a Dexterity check to determine turn order.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "roll initiative"
+    ],
+    "data": {
+      "tags": [
+        "combat"
+      ],
+      "ability": "dexterity"
+    }
+  },
+  {
+    "name": "Combat Round",
+    "category": "rule",
+    "description": "A round represents about 6 seconds; each combatant takes a turn in initiative order.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "round"
+    ],
+    "data": {
+      "tags": [
+        "combat"
+      ],
+      "duration_seconds": 6
+    }
+  },
+  {
+    "name": "Attack Roll",
+    "category": "rule",
+    "description": "Roll a d20 and add relevant modifiers. An attack hits if the total meets or exceeds the target Armor Class.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "to hit",
+      "hit roll"
+    ],
+    "data": {
+      "tags": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "name": "Critical Hit",
+    "category": "rule",
+    "description": "A natural 20 on an attack roll hits and doubles the number of damage dice rolled for the attack.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "crit",
+      "nat 20",
+      "natural twenty"
+    ],
+    "data": {
+      "tags": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "name": "Natural 1 on Attack",
+    "category": "rule",
+    "description": "A natural 1 on an attack roll misses regardless of modifiers.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "nat 1",
+      "critical miss"
+    ],
+    "data": {
+      "tags": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "name": "Opportunity Attack",
+    "category": "rule",
+    "description": "Use your reaction to make one melee attack against a creature you can see when it moves out of your reach, unless it Disengages or another exception applies.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "OA",
+      "attack of opportunity"
+    ],
+    "data": {
+      "tags": [
+        "reaction"
+      ]
+    }
+  },
+  {
+    "name": "Cover",
+    "category": "rule",
+    "description": "Half cover grants +2 AC and Dexterity saving throws; three-quarters cover grants +5; total cover prevents direct targeting by attacks or spells.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "half cover",
+      "three quarters cover",
+      "full cover"
+    ],
+    "data": {
+      "tags": [
+        "defense"
+      ]
+    }
+  },
+  {
+    "name": "Two-Weapon Fighting",
+    "category": "rule",
+    "description": "When you take the Attack action and attack with a light melee weapon in one hand, you can use a bonus action to attack with a different light melee weapon in the other hand. You do not add your ability modifier to bonus attack damage unless negative.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "dual wielding"
+    ],
+    "data": {
+      "tags": [
+        "combat"
+      ]
+    }
+  },
+  {
+    "name": "Grappling",
+    "category": "rule",
+    "description": "Replace one attack with a special melee attack; make a Strength (Athletics) check contested by the target Strength (Athletics) or Dexterity (Acrobatics). A grappled creature has speed 0.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "grapple"
+    ],
+    "data": {
+      "tags": [
+        "combat"
+      ]
+    }
+  },
+  {
+    "name": "Shoving",
+    "category": "rule",
+    "description": "Replace one attack to knock a creature prone or push it 5 feet, using a contested Strength (Athletics) check.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "shove"
+    ],
+    "data": {
+      "tags": [
+        "combat"
+      ]
+    }
+  },
+  {
+    "name": "Flanking",
+    "category": "optional_rule",
+    "description": "Optional tactical-positioning rule described in the 2014 Dungeon Master’s Guide. Consult a legally owned source for exact mechanics.",
+    "source": "Dungeon Master’s Guide (2014)",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "flank",
+      "flanking advantage"
+    ],
+    "data": {
+      "tags": [
+        "combat"
+      ]
+    }
+  }
+]

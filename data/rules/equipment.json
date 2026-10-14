@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Armor Class",
+    "category": "rule",
+    "description": "AC determines how difficult a creature is to hit. Armor, shields, and features determine the calculation.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "AC"
+    ],
+    "data": {
+      "tags": [
+        "equipment"
+      ]
+    }
+  },
+  {
+    "name": "Weapon Properties",
+    "category": "rule",
+    "description": "Weapons can have properties such as finesse, heavy, light, reach, thrown, loading, and two-handed that modify how they are used.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "weapon traits"
+    ],
+    "data": {
+      "tags": [
+        "equipment"
+      ]
+    }
+  },
+  {
+    "name": "Improvised Weapons",
+    "category": "rule",
+    "description": "An object not designed as a weapon can be used to attack; DM determines resemblance to existing weapons and appropriate damage.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "improvised weapon"
+    ],
+    "data": {
+      "tags": [
+        "equipment"
+      ]
+    }
+  },
+  {
+    "name": "Carrying Capacity",
+    "category": "rule",
+    "description": "Carrying capacity is Strength score multiplied by 15 pounds; push, drag, or lift up to twice that weight.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "encumbrance"
+    ],
+    "data": {
+      "tags": [
+        "equipment"
+      ]
+    }
+  }
+]

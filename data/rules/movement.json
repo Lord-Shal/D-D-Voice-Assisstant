@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Movement on Your Turn",
+    "category": "rule",
+    "description": "Move up to your speed on your turn; you may split movement before and after actions.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "move"
+    ],
+    "data": {
+      "tags": [
+        "movement"
+      ]
+    }
+  },
+  {
+    "name": "Difficult Terrain",
+    "category": "rule",
+    "description": "Every foot of movement in difficult terrain costs one extra foot.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "rough terrain"
+    ],
+    "data": {
+      "tags": [
+        "movement"
+      ]
+    }
+  },
+  {
+    "name": "Standing Up",
+    "category": "rule",
+    "description": "Standing from prone costs movement equal to half your speed.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "get up"
+    ],
+    "data": {
+      "tags": [
+        "movement"
+      ]
+    }
+  },
+  {
+    "name": "Climbing Swimming Crawling",
+    "category": "rule",
+    "description": "Each foot costs one extra foot of movement unless a relevant special speed applies.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "climb",
+      "swim",
+      "crawl"
+    ],
+    "data": {
+      "tags": [
+        "movement"
+      ]
+    }
+  },
+  {
+    "name": "Jumping",
+    "category": "rule",
+    "description": "Long jump with a running start covers up to Strength score in feet; high jump with a running start reaches 3 + Strength modifier feet, minimum 0. Halve distances without 10-foot run-up.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "long jump",
+      "high jump"
+    ],
+    "data": {
+      "tags": [
+        "movement"
+      ]
+    }
+  },
+  {
+    "name": "Variant Encumbrance",
+    "category": "optional_rule",
+    "description": "If carrying weight exceeds 5 times Strength score (in pounds), speed drops 10 feet; if it exceeds 10 times Strength score, speed drops 20 feet and the character has disadvantage on ability checks, attack rolls and saving throws using Strength, Dexterity or Constitution.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "encumbrance variant",
+      "heavy encumbrance"
+    ],
+    "data": {
+      "tags": [
+        "movement"
+      ]
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Saving Throw",
+    "category": "rule",
+    "description": "Roll d20 plus the relevant ability modifier and proficiency bonus if proficient in that saving throw.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "save"
+    ],
+    "data": {
+      "tags": [
+        "saving_throw"
+      ]
+    }
+  },
+  {
+    "name": "Death Saving Throw",
+    "category": "rule",
+    "description": "At 0 HP, roll d20 at the start of your turn: 10 or higher succeeds, otherwise fails; three successes stabilize, three failures cause death. A natural 20 restores 1 HP and a natural 1 counts as two failures.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "death save",
+      "death saves"
+    ],
+    "data": {
+      "tags": [
+        "saving_throw"
+      ]
+    }
+  },
+  {
+    "name": "Concentration Saving Throw",
+    "category": "rule",
+    "description": "After taking damage while concentrating, make a Constitution saving throw with DC 10 or half the damage, whichever is higher.",
+    "source": "SRD 5.1",
+    "ruleset": "5e-2014",
+    "aliases": [
+      "con save for concentration"
+    ],
+    "data": {
+      "tags": [
+        "saving_throw"
+      ]
+    }
+  }
+]
