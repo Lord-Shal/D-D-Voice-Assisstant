@@ -4,7 +4,8 @@ import os # read env vars
 from dataclasses import dataclass # for MusicCUe
 from typing import Optional # 
 
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 class IntentDetectionError(Exception): #tried following same pattern for recording and transcribing
     pass
@@ -39,12 +40,7 @@ class MusicIntentDetector:
             raise IntentDetectionError("GEMINI_API_KEY environment variable no set")
 
         try:
-            genai.configure(api_key=api_key)
-            self.client = genai.GenerativeModel(
-                model_name=model,
-                system_instruction = SYSTEM_PROMPT,
-                generation_config= {"response_mime_type": "application/json"}, # forces JSON output. Prompt mimght not be needed. creates structured data
-            )
+            self.client = genai.Client(api_key=api_key)
         except Exception as error:
             raise IntentDetectionError(f"Could not initialise client:{error}") from error
 
@@ -82,7 +78,14 @@ class MusicIntentDetector:
         combined_text = " ".join(text for _, text in self._buffer)
  
         try:
-            response = self.client.generate_content(combined_text)
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=combined_text,
+                config=types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                    response_mime_type="application/json",
+                ),
+            )
  
             raw = response.text.strip()
             data = json.loads(raw)
